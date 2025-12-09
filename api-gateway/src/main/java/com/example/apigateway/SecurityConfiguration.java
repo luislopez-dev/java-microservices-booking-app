@@ -1,8 +1,3 @@
-/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
 package com.example.apigateway;
 
 import org.springframework.context.annotation.Bean;
@@ -12,6 +7,12 @@ import org.springframework.security.config.annotation.web.reactive.EnableWebFlux
 import org.springframework.security.config.web.server.ServerHttpSecurity;
 import org.springframework.security.web.server.SecurityWebFilterChain;
 
+/**
+ * Training Project.
+ *
+ * @author Luis López
+ * @see <a href="https://github.com/luislopez-dev">https://github.com/luislopez-dev</a>
+ */
 @Configuration
 @EnableWebFluxSecurity
 public class SecurityConfiguration {

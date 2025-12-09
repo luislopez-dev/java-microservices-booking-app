@@ -1,8 +1,4 @@
-/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
+
 package com.example.demo.Controllers;
 
 import com.example.demo.Clients.StockClient;
@@ -17,6 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.UUID;
 
+/**
+ * Training Project.
+ *
+ * @author Luis López
+ * @see <a href="https://github.com/luislopez-dev">https://github.com/luislopez-dev</a>
+ */
 @RestController
 @RequestMapping("/api/booking")
 public class BookingController {

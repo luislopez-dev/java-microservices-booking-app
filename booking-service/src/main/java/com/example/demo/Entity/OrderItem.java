@@ -1,8 +1,4 @@
-/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
+
 package com.example.demo.Entity;
 
 import jakarta.persistence.*;
@@ -10,6 +6,12 @@ import lombok.Data;
 
 import java.math.BigDecimal;
 
+/**
+ * Training Project.
+ *
+ * @author Luis López
+ * @see <a href="https://github.com/luislopez-dev">https://github.com/luislopez-dev</a>
+ */
 @Entity
 @Table(name = "order_item")
 @Data

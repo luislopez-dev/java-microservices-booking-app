@@ -1,8 +1,4 @@
-/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
+
 package com.example.productservice;
 
 import org.springframework.context.annotation.Bean;
@@ -12,6 +8,12 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.web.SecurityFilterChain;
 
+/**
+ * Training Project.
+ *
+ * @author Luis López
+ * @see <a href="https://github.com/luislopez-dev">https://github.com/luislopez-dev</a>
+ */
 @Configuration
 @EnableWebSecurity
 public class SecurityConfiguration {

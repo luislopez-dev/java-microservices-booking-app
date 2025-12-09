@@ -1,8 +1,4 @@
-/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
+
 package com.example.demo.Controller;
 
 import com.example.demo.Entities.Stock;
@@ -14,6 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Optional;
 
+/**
+ * Training Project.
+ *
+ * @author Luis López
+ * @see <a href="https://github.com/luislopez-dev">https://github.com/luislopez-dev</a>
+ */
 @RestController
 @RequestMapping("/api/stock")
 public class StockController {

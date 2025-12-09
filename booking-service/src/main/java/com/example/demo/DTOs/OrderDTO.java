@@ -1,8 +1,4 @@
-/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
+
 package com.example.demo.DTOs;
 
 import com.example.demo.Entity.OrderItem;
@@ -12,6 +8,12 @@ import lombok.Setter;
 
 import java.util.List;
 
+/**
+ * Training Project.
+ *
+ * @author Luis López
+ * @see <a href="https://github.com/luislopez-dev">https://github.com/luislopez-dev</a>
+ */
 @Getter
 @Setter
 @NoArgsConstructor
